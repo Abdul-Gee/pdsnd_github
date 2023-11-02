@@ -19,6 +19,7 @@ def get_filters():
     """
     print('Hello! I\'m Gee currently refactoring data. Let\'s explore some US bikeshare data!')
     #Initializing an empty city variable to store city choice from user
+    #Currently refactoring data for Udacity project
     city = ''
     while city not in CITY_DATA.keys():
         print("\nWelcome. What city would you like to see the data for?")
